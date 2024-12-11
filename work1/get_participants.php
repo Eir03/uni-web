@@ -2,7 +2,7 @@
 // Подключение к базе данных
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "rootpassword";
 $dbname = "conference";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

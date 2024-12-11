@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$password = '';
+$password = 'rootpassword';
 $dbname = 'conference';
 
 $conn = new mysqli($host, $user, $password, $dbname);
